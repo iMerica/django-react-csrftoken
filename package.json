@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A drop-in React component for submitting forms with a Django CSRF middleware token.",
   "main": "index.js",
+  "homepage": "https://github.com/iMerica/django-react-csrftoken",
   "options": {
     "mocha": "--require scripts/mocha_runner src/**/__tests__/**/*.js"
   },

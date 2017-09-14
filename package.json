@@ -1,6 +1,6 @@
 {
   "name": "django-react-csrftoken",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A drop-in React component for submitting forms with a Django CSRF middleware token.",
   "main": "index.js",
   "homepage": "https://github.com/iMerica/django-react-csrftoken",
@@ -27,7 +27,8 @@
   "dependencies": {
     "babel-runtime": "6.x.x",
     "react": "^15.3.2",
-    "react-cookie": "^0.4.8"
+    "react-cookie": "^0.4.8",
+    "react-dom-factories": "^1.0.1"
   },
   "devDependencies": {
     "mocha": "2.x.x",

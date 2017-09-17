@@ -32,6 +32,10 @@ var _reactCookie = require('react-cookie');
 
 var _reactCookie2 = _interopRequireDefault(_reactCookie);
 
+var _reactDomFactories = require('react-dom-factories');
+
+var _reactDomFactories2 = _interopRequireDefault(_reactDomFactories);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var DjangoCSRFToken = function (_React$Component) {
@@ -51,7 +55,7 @@ var DjangoCSRFToken = function (_React$Component) {
   (0, _createClass3.default)(DjangoCSRFToken, [{
     key: 'render',
     value: function render() {
-      return _react2.default.DOM.input({
+      return _reactDomFactories2.default.input({
         type: 'hidden',
         name: 'csrfmiddlewaretoken',
         value: this.state.csrfToken

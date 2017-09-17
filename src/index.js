@@ -1,5 +1,6 @@
 import React from 'react';
 import cookie from 'react-cookie';
+import DOM from 'react-dom-factories';
 
 class DjangoCSRFToken extends React.Component {
   constructor() {
@@ -10,7 +11,7 @@ class DjangoCSRFToken extends React.Component {
   }
   render() {
     return (
-      React.DOM.input(
+      DOM.input(
         {
           type: 'hidden',
           name: 'csrfmiddlewaretoken',

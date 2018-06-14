@@ -1,6 +1,6 @@
 # DjangoCSRFToken
 
-![](https://circleci.com/gh/iMerica/django-react-csrftoken.png?style=shield)
+![https://circleci.com/gh/iMerica/django-react-csrftoken/](https://circleci.com/gh/iMerica/django-react-csrftoken.png?style=shield)
 
 A drop-in React component for submitting forms with a Django CSRF middleware token.
 

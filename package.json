@@ -32,7 +32,7 @@
   "devDependencies": {
     "mocha": "2.x.x",
     "chai": "3.x.x",
-    "eslint": "1.7.x",
+    "eslint": "6.6.x",
     "babel-eslint": "4.x.x",
     "eslint-plugin-babel": "2.x.x",
     "babel-cli": "6.x.x",
